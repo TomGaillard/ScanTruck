@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewStatus"
+        android:layout_alignLeft="@+id/textViewStatus"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="42dp"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/checkBoxContinuous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="350dp"
+        android:text="@string/Reste_allumé" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonStartScan"
+        android:layout_alignLeft="@+id/checkBoxContinuous"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/status" />
+
+    <Button
+        android:id="@+id/buttonStartScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/Démarrer" />
+
+    <Button
+        android:id="@+id/buttonStopScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/Arréter" />
+
+    <Button
+        android:id="@+id/buttonenvoie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="670dp"
+        android:text="Envoyer"
+ />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/Scan_Truck" />
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="600dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nom"
+ />
+
+    <EditText
+        android:id="@+id/editTextQuantité"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="600dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Quantité" />
+
+</RelativeLayout>
