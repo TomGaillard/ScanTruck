@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScanTruck</string>
+    <string name="Reste_allumé">Reste allumé</string>
+    <string name="Donnée">Donnée</string>
+    <string name="status">Status:</string>
+    <string name="Démarrer">Démarrer</string>
+    <string name="Arréter">Arréter</string>
+    <string name="nom">Nom</string>
+</resources>
